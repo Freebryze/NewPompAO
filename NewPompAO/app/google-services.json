@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "986235046485",
+    "firebase_url": "https://pompao-d3a8b-default-rtdb.firebaseio.com",
+    "project_id": "pompao-d3a8b",
+    "storage_bucket": "pompao-d3a8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986235046485:android:8c1f31848ad14ae78b62dc",
+        "android_client_info": {
+          "package_name": "com.example.newpompao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986235046485-lis1vjor4nkrsgp40qh2fn3fuurj7jd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo7hbDuD5dK5MQ4SA2ftLzhGFeBUrzbqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986235046485-lis1vjor4nkrsgp40qh2fn3fuurj7jd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986235046485:android:a9e2c1fb3e008b7f8b62dc",
+        "android_client_info": {
+          "package_name": "com.example.pompao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986235046485-lis1vjor4nkrsgp40qh2fn3fuurj7jd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo7hbDuD5dK5MQ4SA2ftLzhGFeBUrzbqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986235046485-lis1vjor4nkrsgp40qh2fn3fuurj7jd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/humidityTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/humidityValueTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Humidité ambiante : "
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/humidityValueTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/humidityTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Value"
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/UVTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/humidityTextView"
+        app:layout_constraintEnd_toStartOf="@id/UVValueTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="UV : "
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/UVValueTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/humidityTextView"
+        app:layout_constraintStart_toEndOf="@+id/UVTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Value"
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/groundHumidityTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/UVTextView"
+        app:layout_constraintEnd_toStartOf="@id/groundHumidityValueTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Humidité du sol : "
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/groundHumidityValueTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/UVTextView"
+        app:layout_constraintStart_toEndOf="@+id/groundHumidityTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Value"
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/groundHumidityTextView"
+        app:layout_constraintEnd_toStartOf="@id/temperatureValueTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Température : "
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/temperatureValueTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/groundHumidityTextView"
+        app:layout_constraintStart_toEndOf="@+id/temperatureTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Value"
+
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/dateLastUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/temperatureValueTextView"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Dernière date de maj : "
+
+        android:layout_margin="20dp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
