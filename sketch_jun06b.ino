@@ -33,7 +33,7 @@ NTPClient timeClient(ntpUDP);
 
 #define DHTTYPE    DHT22
 DHT_Unified dht(DHTPIN, DHTTYPE);
-*/
+
 uint32_t delayMS;
 int sensorPin = 26;
 int sensorLightPin = 36;
